@@ -1,0 +1,10 @@
+{
+  "name": "electronTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Naoki Maeda <maeda.naoki.md9@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.0.4"
+  }
+}
