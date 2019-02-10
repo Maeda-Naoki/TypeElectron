@@ -5,6 +5,7 @@
   "author": "Naoki Maeda <maeda.naoki.md9@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^4.0.4"
+    "electron": "^4.0.4",
+    "typescript": "^3.3.3"
   }
 }
