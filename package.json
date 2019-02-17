@@ -6,6 +6,8 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^4.0.4",
-    "typescript": "^3.3.3"
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
   }
 }
