@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Naoki Maeda <maeda.naoki.md9@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+  },
   "devDependencies": {
     "electron": "^4.0.4",
     "ts-loader": "^5.3.3",
