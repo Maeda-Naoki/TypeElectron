@@ -1,6 +1,6 @@
 const path = require('path');
 
-module.exports = {
+const main = {
   target: 'electron-main',
   node: {
     __dirname: false,
@@ -25,3 +25,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   }
 };
+
+module.exports = [
+  main
+];
