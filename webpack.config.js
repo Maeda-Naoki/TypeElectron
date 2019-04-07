@@ -2,6 +2,10 @@ const path = require('path');
 
 module.exports = {
   target: 'electron-main',
+  node: {
+    __dirname: false,
+    __filename: false
+  },
   entry: './src/index.ts',
   devtool: 'inline-source-map',
   module: {
