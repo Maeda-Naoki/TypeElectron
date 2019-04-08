@@ -1,5 +1,8 @@
 const path = require('path');
 
+const renderer = {
+	target: 'electron-renderer',
+}
 module.exports = {
   entry: './src/index.ts',
   devtool: 'inline-source-map',
