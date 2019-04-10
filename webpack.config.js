@@ -1,7 +1,12 @@
 const path = require('path');
 
-module.exports = {
-  entry: './src/index.ts',
+const main = {
+  target: 'electron-main',
+  node: {
+    __dirname: false,
+    __filename: false
+  },
+  entry: './src/main.ts',
   devtool: 'inline-source-map',
   module: {
     rules: [
@@ -16,7 +21,11 @@ module.exports = {
     extensions: [ '.tsx', '.ts', '.js' ]
   },
   output: {
-    filename: 'bundle.js',
+    filename: 'main.js',
     path: path.resolve(__dirname, 'dist')
   }
 };
+
+module.exports = [
+  main
+];
