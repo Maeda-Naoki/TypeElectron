@@ -6,7 +6,7 @@ const main = {
     __dirname: false,
     __filename: false
   },
-  entry: './src/index.ts',
+  entry: './src/main.ts',
   devtool: 'inline-source-map',
   module: {
     rules: [
