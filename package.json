@@ -9,7 +9,9 @@
     "build": "webpack --mode production"
   },
   "devDependencies": {
+    "css-loader": "^2.1.1",
     "electron": "^4.0.4",
+    "style-loader": "^0.23.1",
     "ts-loader": "^5.3.3",
     "typescript": "^3.3.3",
     "webpack": "^4.29.4",
