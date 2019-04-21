@@ -6,4 +6,10 @@
     "es6": true,
     "browser": true
   },
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module",
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": "./"
+  }
 }
