@@ -20,5 +20,13 @@
     "semi": ["error", "always"],
     "semi-spacing": ["error", {"before": false, "after": true}],
     "no-var": "error"
-  }
+  },
+  "overrides": [
+    {
+      "files": "*.js",
+      "rules": {
+        "@typescript-eslint/no-unused-vars": "off"
+      }
+    }
+  ]
 }
