@@ -19,7 +19,13 @@
     "max-len": ["error", 120],
     "semi": ["error", "always"],
     "semi-spacing": ["error", {"before": false, "after": true}],
-    "no-var": "error"
+    "no-var": "error",
+    "no-unused-vars": 0,
+    "@typescript-eslint/no-unused-vars": ["error", {
+      "vars": "all",
+      "args": "none",
+      "ignoreRestSiblings": false
+    }]
   },
   "overrides": [
     {
