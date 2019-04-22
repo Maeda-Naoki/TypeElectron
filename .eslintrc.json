@@ -1,0 +1,42 @@
+{
+  "extends": "eslint:recommended",
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module",
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": "./"
+  },
+  "rules": {
+    "strict": "warn",
+    "indent": ["error", 2],
+    "max-len": ["error", 120],
+    "semi": ["error", "always"],
+    "semi-spacing": ["error", {"before": false, "after": true}],
+    "no-var": "error",
+    "no-global-assign": 0,
+    "prefer-const": ["error", {
+      "destructuring": "all"
+    }],
+    "no-unused-vars": 0,
+    "@typescript-eslint/no-unused-vars": ["error", {
+      "vars": "all",
+      "args": "none",
+      "ignoreRestSiblings": false
+    }]
+  },
+  "overrides": [
+    {
+      "files": "*.js",
+      "rules": {
+        "@typescript-eslint/no-unused-vars": "off"
+      }
+    }
+  ]
+}
