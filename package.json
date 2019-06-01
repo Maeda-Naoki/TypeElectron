@@ -19,6 +19,8 @@
     "husky": "^2.2.0",
     "lint-staged": "^8.1.6",
     "prettier": "^1.17.0",
+    "remark-cli": "^6.0.1",
+    "remark-preset-lint-markdown-style-guide": "^2.1.2",
     "style-loader": "^0.23.1",
     "ts-loader": "^5.3.3",
     "typescript": "^3.3.3",
@@ -34,6 +36,9 @@
     "*.{js,ts,d.ts}": [
       "prettier --write",
       "git add"
+    ],
+	"*.md": [
+      "remark -qf"
     ]
   }
 }
