@@ -36,6 +36,9 @@
     "*.{js,ts,d.ts}": [
       "prettier --write",
       "git add"
+    ],
+	"*.md": [
+      "remark -qf"
     ]
   }
 }
