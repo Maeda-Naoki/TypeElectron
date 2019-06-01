@@ -14,5 +14,7 @@ indent_style = space
 indent_size = 2
 
 [*.md]
+indent_style = space
+indent_size = 2
 insert_final_newline = false
 trim_trailing_whitespace = false
