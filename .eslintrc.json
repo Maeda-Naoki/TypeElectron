@@ -4,7 +4,7 @@
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "plugin:prettier/recommended"],
+  "plugins": ["@typescript-eslint", "prettier"],
   "env": {
     "es6": true,
     "browser": true,
