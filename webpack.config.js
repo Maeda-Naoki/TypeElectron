@@ -28,7 +28,7 @@ const main = {
 
 const renderer = {
   target: "electron-renderer",
-  entry: "./src/renderer/renderer.js",
+  entry: "./src/renderer/renderer.ts",
   module: {
     rules: [
       {
