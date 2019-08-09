@@ -3,7 +3,7 @@ import { app, BrowserWindow } from "electron";
 class App {
   private mainWindow: BrowserWindow | null = null;
   private app: Electron.App;
-  private filePath: string = `file://${__dirname}/../index.html`;
+  private filePath: string = `file://${__dirname}/../static/index.html`;
 
   constructor(app: Electron.App) {
     this.app = app;
