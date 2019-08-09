@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack --mode development --watch",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+	"start": "electron ./dist/main.js"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.13.0",
