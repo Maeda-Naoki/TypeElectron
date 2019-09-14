@@ -7,7 +7,6 @@ const main = {
     __filename: false
   },
   entry: "./src/main/main.ts",
-  devtool: "inline-source-map",
   module: {
     rules: [
       {
