@@ -25,8 +25,8 @@
     "style-loader": "^0.23.1",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
-    "webpack": "^4.38.0",
-    "webpack-cli": "^3.3.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
     "webpack-merge": "^4.2.2"
   },
   "husky": {
