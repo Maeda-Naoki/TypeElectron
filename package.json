@@ -11,13 +11,13 @@
     "start": "electron ./dist/main.js"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^2.5.0",
     "@typescript-eslint/parser": "^2.5.0",
     "commitizen": "^4.0.3",
     "css-loader": "^3.4.2",
-    "cz-conventional-changelog": "^3.0.2",
+    "cz-conventional-changelog": "^3.1.0",
     "electron": "^8.0.0",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.5.0",
