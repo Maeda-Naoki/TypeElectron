@@ -1,8 +1,8 @@
-import * as webpack from "webpack";
+import { Configuration } from "webpack";
 import webpackMerge from "webpack-merge";
 import { main, renderer } from "./webpack.common";
 
-const dev: webpack.Configuration = {
+const dev: Configuration = {
   mode: "development",
   devtool: "inline-source-map"
 };
