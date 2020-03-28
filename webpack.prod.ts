@@ -1,8 +1,8 @@
-import * as webpack from "webpack";
+import { Configuration } from "webpack";
 import webpackMerge from "webpack-merge";
 import { main, renderer } from "./webpack.common";
 
-const prod: webpack.Configuration = {
+const prod: Configuration = {
   mode: "production"
 };
 
