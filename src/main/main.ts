@@ -1,3 +1,4 @@
+import { join } from "path";
 import { app, BrowserWindow } from "electron";
 
 class App {
@@ -33,8 +34,8 @@ class App {
       width: 800,
       height: 400,
       webPreferences: {
-        nodeIntegration: true
-      }
+        nodeIntegration: true,
+      },
     });
 
     this.mainWindow.loadURL(this.filePath);
