@@ -1,9 +1,14 @@
+import { join } from "path";
 import { app, BrowserWindow } from "electron";
 
 class App {
   private mainWindow: BrowserWindow | null = null;
   private app: Electron.App;
-  private filePath: string = `file://${__dirname}/../static/index.html`;
+  private filePath: string = join(
+    "file://",
+    __dirname,
+    "/../static/index.html"
+  );
 
   constructor(app: Electron.App) {
     this.app = app;
@@ -33,8 +38,8 @@ class App {
       width: 800,
       height: 400,
       webPreferences: {
-        nodeIntegration: true
-      }
+        nodeIntegration: true,
+      },
     });
 
     this.mainWindow.loadURL(this.filePath);
