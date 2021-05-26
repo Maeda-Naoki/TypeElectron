@@ -8,6 +8,7 @@
     "commit": "git-cz",
     "dev": "webpack --watch --config webpack.dev.ts",
     "build": "webpack --config webpack.prod.ts",
+	"prepare": "husky install",
     "start": "electron ./dist/main.js"
   },
   "devDependencies": {
