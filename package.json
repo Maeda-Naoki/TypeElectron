@@ -13,8 +13,8 @@
     "start": "electron ./dist/main.js"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@types/node": "^14.14.22",
     "@types/webpack": "^4.41.26",
     "@types/webpack-merge": "^4.1.5",
