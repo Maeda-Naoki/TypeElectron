@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Naoki Maeda <maeda.naoki.md9@gmail.com>",
   "license": "MIT",
+  "packageManager": "yarn@3.0.1",
   "scripts": {
     "commit": "git-cz",
     "dev": "webpack --watch --config webpack.dev.ts",
