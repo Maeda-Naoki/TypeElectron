@@ -61,3 +61,12 @@ spec/.hash
 
 # If someone runs tsc this is where stuff will end up
 ts-gen
+
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
